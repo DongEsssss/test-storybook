@@ -1,0 +1,72 @@
+@mixin use-font(
+  $font-family,
+  $filename,
+  $font-weight: normal,
+  $font-display: block
+) {
+  @font-face {
+    font-family: '#{$font-family}';
+    font-display: $font-display;
+    src:
+      // url('#{$filename}.eot') format('eot'),
+      // url('#{$filename}.woff2') format('woff2'),
+      // url('#{$filename}.woff') format('woff'),
+      // url('#{$filename}.svg') format('svg'),
+      url('#{$filename}.ttf') format('truetype');
+    font-weight: $font-weight;
+  }
+}
+
+@include use-font(
+  'Pretendard-Black',
+  '../assets/fonts/PretendardVariable',
+  900
+);
+
+@include use-font(
+  'Pretendard-ExtraBold',
+  '../assets/fonts/PretendardVariable',
+  800
+);
+
+@include use-font(
+  'Pretendard-Bold',
+  '../assets/fonts/PretendardVariable',
+  700
+);
+
+@include use-font(
+  'Pretendard-SemiBold',
+  '../assets/fonts/PretendardVariable',
+  600
+);
+
+@include use-font(
+  'Pretendard-Medium',
+  '../assets/fonts/PretendardVariable',
+  500
+);
+
+@include use-font(
+  'Pretendard',
+  '../assets/fonts/PretendardVariable',
+  400
+);
+
+@include use-font(
+  'Pretendards-Light',
+  '../assets/fonts/PretendardVariable',
+  300
+);
+
+@include use-font(
+  'Pretendards-ExtraLight',
+  '../assets/fonts/PretendardVariable',
+  200
+);
+
+@include use-font(
+  'Pretendards-Thin',
+  '../assets/fonts/PretendardVariable',
+  100
+);
