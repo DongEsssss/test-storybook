@@ -1,7 +1,7 @@
 {
-  "name": "storybooks",
+  "name": "@dongesssss/storybooks",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,7 +13,7 @@
     "chromatic": "npx chromatic --project-token=chpt_38dac5554d9f26d"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/DongEsssss"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
