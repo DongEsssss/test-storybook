@@ -1,4 +1,4 @@
-import React from 'react';
+ ;
 export declare const TransparentPixel = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 interface ImageProps {
     src: string;

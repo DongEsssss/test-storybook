@@ -2,7 +2,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Tooltips as Component } from '.'
 import { Button } from '@mui/material'
-import React from 'react'
+ 
 
 const storyData = {
   title: 'Tooltips',

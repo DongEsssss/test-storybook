@@ -1,4 +1,5 @@
 import '@mui/material/styles';
+
 declare module '@mui/material/styles' {
   interface TypeIcons {
     icon01: string;

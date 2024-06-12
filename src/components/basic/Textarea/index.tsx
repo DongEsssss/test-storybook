@@ -7,7 +7,7 @@ import {
   FormControl,
 } from '@mui/material'
 import { Typography } from '../Typography'
-import React from 'react'
+ 
 
 interface TextareaProps extends TextareaAutosizeProps {
   label?: string

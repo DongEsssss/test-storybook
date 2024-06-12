@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import { LogoGrayData } from '../Logo'
-import React from 'react'
+ 
 
 export const TransparentPixel =
   'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'

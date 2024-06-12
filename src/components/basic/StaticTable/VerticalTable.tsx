@@ -9,7 +9,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import type { TableType } from './types'
 import { Input } from '../Input'
 import { Tooltips } from '../ToolTips'
-import React from 'react'
+ 
 
 export const VerticalTable = ({
   data,

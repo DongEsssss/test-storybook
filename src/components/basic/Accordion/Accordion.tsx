@@ -1,5 +1,4 @@
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material'
-import React from 'react'
 
 export interface AccordionProps {
   title: string

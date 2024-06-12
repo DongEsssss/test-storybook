@@ -1,5 +1,5 @@
 import { type CardProps } from './Card';
-import React from 'react';
+ ;
 export type CardItems = Omit<CardProps, 'variant' | 'imageSize' | 'imageShape' | 'buttonText' | 'status'>;
 export interface SubItems {
     label: string;

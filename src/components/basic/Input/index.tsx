@@ -9,7 +9,7 @@ import {
 } from '@mui/material'
 import ErrorOutline from '@mui/icons-material/ErrorOutline'
 import { Typography } from '../Typography'
-import React from 'react'
+ 
 interface InputProps extends Omit<TextFieldProps, 'variant'> {
   variant?: 'outlined'
   tooltipMessage?: string

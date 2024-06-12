@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import { Image } from '../Image/index'
 interface LogoProps {
   variant?: 'standard' | 'short' | 'text' | 'gray' | 'textnl' | 'small' | 'smallwhite' | 'smallwhitenl'

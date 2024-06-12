@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 import { Typography } from '../../Typography'
-import React from 'react'
+ 
 
 export interface CardHeaderProps {
     id?: string

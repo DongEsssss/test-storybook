@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import { Meta, StoryObj } from '@storybook/react'
 import { Textarea as Component } from '.'
 

@@ -4,7 +4,7 @@ import MuiCheckbox, {
   type CheckboxProps as MuiCheckboxProps,
 } from '@mui/material/Checkbox'
 import FormControlLabel from '@mui/material/FormControlLabel'
-import React from 'react'
+ 
 
 const ariaLabel = { inputProps: { 'aria-label': 'Checkbox demo' } }
 

@@ -1,5 +1,5 @@
 import type { ReactElement } from 'react';
-import React from 'react';
+ ;
 interface TooltipsProps {
     children: ReactElement;
     tooltipText: string;
