@@ -11,6 +11,7 @@ import { SelectOptions } from './Components/SelectOptions'
 import { SelectAddMore } from './Components/SelectAddMore'
 import uniqueId from 'lodash/uniqueId'
 import { useEffect, useState } from 'react'
+import React from 'react'
 
 export type TagSizeType = 'small' | 'medium' | 'large'
 export interface PartsType {

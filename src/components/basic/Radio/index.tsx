@@ -1,6 +1,7 @@
 ;
 import MuiRadio, { type RadioProps as MuiRadioProps } from '@mui/material/Radio'
 import FormControlLabel from '@mui/material/FormControlLabel'
+import React from 'react'
 
 const ariaLabel = { inputProps: { 'aria-label': 'Radio demo' } }
 

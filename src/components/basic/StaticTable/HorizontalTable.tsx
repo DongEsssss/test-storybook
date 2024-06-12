@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material'
 import { type TableType } from './types'
 import { useState } from 'react'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy'
+import React from 'react'
 
 export const HorizontalTable = ({ data }: { data: TableType }) => {
   const [copied, setCopied] = useState<string>('')

@@ -2,13 +2,13 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { Input } from './index'
 
-const default_data = {
+const storyData = {
   title: 'Input',
   component: Input,
 } as Meta
 
-export default default_data
-type Story = StoryObj<typeof default_data>
+export default storyData
+type Story = StoryObj<typeof storyData>
 
 export const Default: Story = {
   args: {

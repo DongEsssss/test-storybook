@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Cards as Component } from '.';
-const default_data = {
+
+const storyData = {
   title: 'AppCard',
   component: Component,
   argTypes: {
@@ -22,8 +23,8 @@ const default_data = {
   },
 } as Meta<typeof Component>;
 
-export default default_data;
-type Story = StoryObj<typeof default_data>;
+export default storyData;
+type Story = StoryObj<typeof storyData>;
 
 const item = {
   title: 'Card-Title',

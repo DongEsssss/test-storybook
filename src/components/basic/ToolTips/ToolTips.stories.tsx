@@ -2,8 +2,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Tooltips as Component } from '.'
 import { Button } from '@mui/material'
+import React from 'react'
 
-const default_data = {
+const storyData = {
   title: 'Tooltips',
   component: Component,
   tags: ['autodocs'],
@@ -15,8 +16,8 @@ const default_data = {
   }
 } satisfies Meta<typeof Component>
 
-export default default_data
-type Story = StoryObj<typeof default_data>
+export default storyData
+type Story = StoryObj<typeof storyData>
 
 export const Tooltips: Story = {
   args: {

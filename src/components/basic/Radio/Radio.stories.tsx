@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react'
 
 import { Radio as Component } from '.'
 
-const default_data = {
+const storyData = {
   title: 'Form',
   component: Component,
   tags: ['autodocs'],
@@ -14,8 +14,8 @@ const default_data = {
   },
 } satisfies Meta<typeof Component>
 
-export default default_data
-type Story = StoryObj<typeof default_data>
+export default storyData
+type Story = StoryObj<typeof storyData>
 
 export const Radio: Story = {
   args: {

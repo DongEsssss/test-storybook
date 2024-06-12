@@ -8,6 +8,7 @@ import { SelectOptions } from '../MultiSelectList/Components/SelectOptions'
 import uniqueId from 'lodash/uniqueId'
 import isEqual from 'lodash/isEqual'
 import { useState } from 'react'
+import React from 'react'
 
 interface SelectListProps extends Omit<TextFieldProps, 'variant'> {
   // eslint-disable-next-line

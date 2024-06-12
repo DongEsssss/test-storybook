@@ -1,4 +1,5 @@
 
+import React from 'react'
 import { HorizontalTable } from './HorizontalTable'
 import { VerticalTable } from './VerticalTable'
 import type { TableType } from './types'

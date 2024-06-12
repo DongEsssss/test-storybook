@@ -4,6 +4,7 @@ import { CardHeader, CardHeaderProps } from './contents/CardHeader'
 import { CardContent, CardContentProps } from './contents/CardContent'
 import { CardImage, CardImageProps } from './contents/CardImage'
 import { CardButtons, CardButtonsProps } from './contents/CardAction'
+import React from 'react'
 
 export interface CardProps extends CardHeaderProps, CardContentProps, CardImageProps, CardButtonsProps {
     size?: Exclude<Size, 'preview'>

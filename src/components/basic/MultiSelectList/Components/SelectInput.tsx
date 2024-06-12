@@ -2,6 +2,7 @@
 import { type AutocompleteRenderInputParams, Box } from '@mui/material'
 import { type MultiSelectListProps } from '..'
 import { Input } from '../../Input'
+import React from 'react'
 
 interface SelectInputProps
   extends Omit<

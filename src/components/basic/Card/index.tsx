@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import { Card, type CardProps } from './Card'
 import uniqueId from 'lodash/uniqueId'
+import React from 'react'
 
 export type CardItems = Omit<
     CardProps,

@@ -3,7 +3,7 @@ import { Box, useTheme } from '@mui/material'
 import { Typography } from '../../Typography'
 import { type TagSizeType } from '..'
 import { useEffect, useState } from 'react'
-
+import React from 'react'
 
 interface SelectedTagProps {
   title: string

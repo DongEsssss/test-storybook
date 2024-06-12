@@ -1,6 +1,7 @@
 import MuiButton, {
   type ButtonProps as MuiButtonProps
 } from '@mui/material/Button'
+import React from 'react'
 
 export interface ButtonProps extends Omit<MuiButtonProps, 'color'> {
   color?: 'primary' | 'secondary' | 'success' | 'error' | 'warning'

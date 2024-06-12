@@ -5,6 +5,7 @@ import { SelectedTag } from './SelectedTag'
 import { type TagSizeType } from '..'
 import { Typography } from '../../Typography'
 import { Button } from '../../Button/Button'
+import React from 'react'
 
 interface SelectAddMoreProps {
   selected: Array<Record<string, string>>

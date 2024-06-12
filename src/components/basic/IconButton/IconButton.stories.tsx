@@ -2,8 +2,9 @@ import { IconButton as Component } from '.'
 import AddIcon from '@mui/icons-material/Add'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { Meta, StoryObj } from '@storybook/react'
+import React from 'react'
 
-const default_data = {
+const storyData = {
   title: 'IconButton',
   component: Component,
   argTypes: {
@@ -13,8 +14,8 @@ const default_data = {
   },
 } as Meta<typeof Component>
 
-export default default_data
-type Story = StoryObj<typeof default_data>
+export default storyData
+type Story = StoryObj<typeof storyData>
 
 export const IconButton: Story = {
   args: {

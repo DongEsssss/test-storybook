@@ -1,5 +1,6 @@
 import Tooltip from '@mui/material/Tooltip'
 import type { ReactElement } from 'react'
+import React from 'react'
 
 interface TooltipsProps {
   children: ReactElement

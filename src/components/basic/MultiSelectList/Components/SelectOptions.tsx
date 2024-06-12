@@ -1,5 +1,4 @@
-
-;
+import React from 'react'
 import { Box } from '@mui/material'
 import { type HTMLAttributes } from 'react'
 import { type PartsType } from '..'
