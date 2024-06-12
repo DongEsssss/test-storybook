@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
   
 import { SelectList as Component } from '.'
 
-const storyData = {
+const default_data = {
   title: 'Form',
   component: Component,
   tags: ['autodocs'],
@@ -41,8 +41,8 @@ const countries = [
     value: 'BR',
   },
 ]
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 export const SearchList: Story = {
   args: {

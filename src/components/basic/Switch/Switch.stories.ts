@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { SwitchButton as Component } from './Switch';
 
-const storyData: Meta = {
+const default_data: Meta = {
   title: 'Switch',
   component: Component,
   tags: ['autodocs'],
@@ -26,8 +26,8 @@ const storyData: Meta = {
   },
 };
 
-export default storyData;
-type Story = StoryObj<typeof storyData>;
+export default default_data;
+type Story = StoryObj<typeof default_data>;
 
 export const Switch: Story = {
   args: {

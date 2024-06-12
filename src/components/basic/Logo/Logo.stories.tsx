@@ -1,13 +1,13 @@
 import { StoryObj } from '@storybook/react'
 import { Logo as Component } from '.'
 
-const storyData = {
+const default_data = {
   title: 'Logo',
   component: Component,
 }
 
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 export const Logo: Story = {
   args: {

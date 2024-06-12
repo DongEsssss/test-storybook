@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './Button';
 
-const storyData = {
+const default_data = {
   title: 'Button',
   component: Button,
   argTypes: {
@@ -20,8 +20,8 @@ const storyData = {
   },
 } satisfies Meta<typeof Button>;
 
-export default storyData;
-type Story = StoryObj<typeof storyData>;
+export default default_data;
+type Story = StoryObj<typeof default_data>;
 
 export const Buttons: Story = {
   args: {

@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-const storyData = {
+const default_data = {
   title: 'IconButton',
   component: Component,
   argTypes: {
@@ -14,8 +14,8 @@ const storyData = {
   },
 } as Meta<typeof Component>
 
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 export const IconButton: Story = {
   args: {

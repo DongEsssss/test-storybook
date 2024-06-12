@@ -2,7 +2,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { StaticTable as Component } from '.'
 
-const storyData = {
+const default_data = {
   title: 'StaticTable',
   component: Component,
   tags: ['autodocs'],
@@ -15,8 +15,8 @@ const storyData = {
   }
 } as Meta
 
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 const data = {
   head: ['heading 1', 'heading 2'],

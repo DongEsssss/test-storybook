@@ -4,7 +4,7 @@ import { Tooltips as Component } from '.'
 import { Button } from '@mui/material'
 import React from 'react'
 
-const storyData = {
+const default_data = {
   title: 'Tooltips',
   component: Component,
   tags: ['autodocs'],
@@ -16,8 +16,8 @@ const storyData = {
   }
 } satisfies Meta<typeof Component>
 
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 export const Tooltips: Story = {
   args: {

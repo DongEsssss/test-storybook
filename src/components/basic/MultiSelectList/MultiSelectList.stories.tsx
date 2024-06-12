@@ -1,7 +1,7 @@
 import { StoryObj } from '@storybook/react'
 import { MultiSelectList as Component } from '.'
 
-const storyData = {
+const default_data = {
   title: 'Form',
   component: Component,
   tags: ['autodocs'],
@@ -56,8 +56,8 @@ const items: any[] = [
   },
 ]
 
-export default storyData
-type Story = StoryObj<typeof storyData>
+export default default_data
+type Story = StoryObj<typeof default_data>
 
 export const MultiSelectList: Story = {
   args: {
