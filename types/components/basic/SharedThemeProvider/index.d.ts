@@ -4,5 +4,5 @@ import React from 'react';
 interface SharedThemeProviderProps {
     children: React.ReactNode;
 }
-export declare const SharedThemeProvider: ({ children }: SharedThemeProviderProps) => any;
+export declare const SharedThemeProvider: ({ children }: SharedThemeProviderProps) => import("react/jsx-runtime").JSX.Element;
 export {};

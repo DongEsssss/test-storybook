@@ -4,5 +4,5 @@ interface SelectInputProps extends Omit<MultiSelectListProps, 'items' | 'onAddIt
     params: AutocompleteRenderInputParams;
     autoFocus?: boolean;
 }
-export declare const SelectInput: ({ params, label, placeholder, margin, focused, helperText, error, disabled, autoFocus, }: SelectInputProps) => any;
+export declare const SelectInput: ({ params, label, placeholder, margin, focused, helperText, error, disabled, autoFocus, }: SelectInputProps) => import("react/jsx-runtime").JSX.Element;
 export {};

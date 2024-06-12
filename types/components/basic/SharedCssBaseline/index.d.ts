@@ -1,1 +1,1 @@
-export declare const SharedCssBaseline: () => any;
+export declare const SharedCssBaseline: () => import("react/jsx-runtime").JSX.Element;

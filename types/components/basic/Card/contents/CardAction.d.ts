@@ -5,4 +5,4 @@ export interface CardButtonsProps {
     onSecondaryButtonClick?: React.MouseEventHandler;
     addButtonClicked?: boolean;
 }
-export declare const CardButtons: ({ buttonText, onButtonClick, onSecondaryButtonClick, addButtonClicked, }: CardButtonsProps) => any;
+export declare const CardButtons: ({ buttonText, onButtonClick, onSecondaryButtonClick, addButtonClicked, }: CardButtonsProps) => import("react/jsx-runtime").JSX.Element;

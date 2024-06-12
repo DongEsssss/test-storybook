@@ -4,5 +4,5 @@ interface TextareaProps extends TextareaAutosizeProps {
     helperText?: string;
     error?: boolean;
 }
-export declare const Textarea: ({ label, placeholder, helperText, error, ...props }: TextareaProps) => any;
+export declare const Textarea: ({ label, placeholder, helperText, error, ...props }: TextareaProps) => import("react/jsx-runtime").JSX.Element;
 export {};

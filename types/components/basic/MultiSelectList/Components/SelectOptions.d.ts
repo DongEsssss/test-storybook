@@ -4,5 +4,5 @@ interface SelectOptionsProps {
     props: HTMLAttributes<HTMLElement>;
     parts: PartsType[];
 }
-export declare const SelectOptions: ({ props, parts }: SelectOptionsProps) => any;
+export declare const SelectOptions: ({ props, parts }: SelectOptionsProps) => import("react/jsx-runtime").JSX.Element;
 export {};

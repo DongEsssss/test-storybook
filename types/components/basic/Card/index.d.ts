@@ -27,5 +27,5 @@ interface CardsProps {
     boxClickable?: boolean;
     size?: CardProps['size'];
 }
-export declare const Cards: ({ items, buttonText, description, imageSize, imageShape, imageElement, addButtonClicked, subMenu, submenuOptions, tooltipText, showStatus, boxClickable, size }: CardsProps) => any;
+export declare const Cards: ({ items, buttonText, description, imageSize, imageShape, imageElement, addButtonClicked, subMenu, submenuOptions, tooltipText, showStatus, boxClickable, size }: CardsProps) => import("react/jsx-runtime").JSX.Element;
 export {};

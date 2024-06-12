@@ -1,53 +1,53 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { Cards as Component } from '.';
+// import type { Meta, StoryObj } from '@storybook/react';
+// import { Cards as Component } from '.';
 
-const storyData = {
-  title: 'AppCard',
-  component: Component,
-  argTypes: {
-    size: {
-      control: { type: 'select' },
-      options: ['minimal', 'normal', 'large'],
-    },
-    imageSize: {
-      control: { type: 'select' },
-      options: ['small', 'normal', 'medium'],
-    },
-    imageShape: {
-      control: { type: 'select' },
-      options: ['round', 'square'],
-    },
-    showImage: {
-      control: { type: 'boolean' },
-    },
-  },
-} as Meta<typeof Component>;
+// const storyData = {
+//   title: 'AppCard',
+//   component: Component,
+//   argTypes: {
+//     size: {
+//       control: { type: 'select' },
+//       options: ['minimal', 'normal', 'large'],
+//     },
+//     imageSize: {
+//       control: { type: 'select' },
+//       options: ['small', 'normal', 'medium'],
+//     },
+//     imageShape: {
+//       control: { type: 'select' },
+//       options: ['round', 'square'],
+//     },
+//     showImage: {
+//       control: { type: 'boolean' },
+//     },
+//   },
+// } as Meta<typeof Component>;
 
-export default storyData;
-type Story = StoryObj<typeof storyData>;
+// export default storyData;
+// type Story = StoryObj<typeof storyData>;
 
-const item = {
-  title: 'Card-Title',
-  subtitle: 'Quantum-X',
-  image: {
-    src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
-    alt: 'Catena-X Card',
-  },
-  description:
-    'Card-Description \nThis impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.',
-  onButtonClick: () => {},
-  onSecondaryButtonClick: () => {},
-};
+// const item = {
+//   title: 'Card-Title',
+//   subtitle: 'Quantum-X',
+//   image: {
+//     src: 'https://images.unsplash.com/photo-1517153295259-74eb0b416cee?auto=format&fit=crop&w=640&q=420',
+//     alt: 'Catena-X Card',
+//   },
+//   description:
+//     'Card-Description \nThis impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.',
+//   onButtonClick: () => {},
+//   onSecondaryButtonClick: () => {},
+// };
 
-export const AppCard: Story = {
-  args: {
-    items: [item],
-    buttonText: 'Details',
-    imageSize: 'small',
-    columns: 0,
-    addButtonClicked: true,
-    showAddNewCard: false,
-    newButtonText: '',
-    size: 'minimal',
-  },
-};
+// export const AppCard: Story = {
+//   args: {
+//     items: [item],
+//     buttonText: 'Details',
+//     imageSize: 'small',
+//     columns: 0,
+//     addButtonClicked: true,
+//     showAddNewCard: false,
+//     newButtonText: '',
+//     size: 'minimal',
+//   },
+// };

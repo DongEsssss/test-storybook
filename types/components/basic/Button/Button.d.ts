@@ -4,4 +4,4 @@ export interface ButtonProps extends Omit<MuiButtonProps, 'color'> {
     size?: 'small' | 'medium' | 'large';
     variant?: 'text' | 'outlined' | 'contained';
 }
-export declare const Button: ({ variant, color: colorProp, ...props }: MuiButtonProps) => any;
+export declare const Button: ({ variant, color: colorProp, ...props }: MuiButtonProps) => import("react/jsx-runtime").JSX.Element;

@@ -9,5 +9,5 @@ interface SelectAddMoreProps {
     tagSize?: TagSizeType;
     handleShowItems: () => void;
 }
-export declare const SelectAddMore: ({ selected, buttonAddMore, notItemsText, label, keyTitle, margin, tagSize, handleShowItems, }: SelectAddMoreProps) => any;
+export declare const SelectAddMore: ({ selected, buttonAddMore, notItemsText, label, keyTitle, margin, tagSize, handleShowItems, }: SelectAddMoreProps) => import("react/jsx-runtime").JSX.Element;
 export {};

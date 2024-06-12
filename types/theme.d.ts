@@ -178,7 +178,7 @@ export declare const typographyDefinitions: {
     fontFamily: string;
     htmlFontSize: number;
     allVariants: {
-        color: any;
+        color: string;
     };
     h1: {
         fontFamily: string;
@@ -257,35 +257,35 @@ export declare const typographyDefinitions: {
         fontSize: number;
         lineHeight: number;
         letterSpacing: number;
-        color: any;
+        color: string;
     };
     caption1: {
         fontFamily: string;
         fontSize: number;
         lineHeight: number;
         letterSpacing: number;
-        color: any;
+        color: string;
     };
     caption2: {
         fontFamily: string;
         fontSize: number;
         lineHeight: number;
         letterSpacing: number;
-        color: any;
+        color: string;
     };
     caption3: {
         fontFamily: string;
         fontSize: number;
         lineHeight: number;
         letterSpacing: number;
-        color: any;
+        color: string;
     };
     helper: {
         fontFamily: string;
         fontSize: number;
         lineHeight: number;
         letterSpacing: number;
-        color: any;
+        color: string;
     };
     nav: {
         fontFamily: string;
@@ -298,4 +298,4 @@ export declare const typographyDefinitions: {
         lineHeight: number;
     };
 };
-export declare const theme: any;
+export declare const theme: import("@mui/material/styles").Theme;

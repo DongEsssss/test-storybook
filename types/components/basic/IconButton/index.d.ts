@@ -4,5 +4,5 @@ interface IconButtonProps extends Omit<MuiIconButtonProps, 'color' | 'size'> {
     size?: 'medium' | 'small';
     variant?: 'outlined';
 }
-export declare const IconButton: ({ size, variant, ...props }: IconButtonProps) => any;
+export declare const IconButton: ({ size, variant, ...props }: IconButtonProps) => import("react/jsx-runtime").JSX.Element;
 export {};

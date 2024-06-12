@@ -6,5 +6,5 @@ export interface CardProps extends CardHeaderProps, CardContentProps, CardImageP
     size?: Exclude<Size, 'preview'>;
 }
 type Size = 'minimal' | 'normal' | 'large';
-export declare const Card: ({ title, subtitle, description, image, imageSize, imageShape, imageLoader, imageType, buttonText, onButtonClick, onSecondaryButtonClick, size: initialSize }: CardProps) => any;
+export declare const Card: ({ title, subtitle, description, image, imageSize, imageShape, imageLoader, imageType, buttonText, onButtonClick, onSecondaryButtonClick, size: initialSize }: CardProps) => import("react/jsx-runtime").JSX.Element;
 export {};

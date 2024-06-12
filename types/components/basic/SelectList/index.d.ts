@@ -12,5 +12,5 @@ interface SelectListProps extends Omit<TextFieldProps, 'variant'> {
     disableClearable?: boolean;
     onChangeItem: (items: any) => void;
 }
-export declare const SelectList: ({ items, label, placeholder, defaultValue, disableClearable, keyTitle, variant, margin, focused, helperText, error, disabled, popperHeight, clearText, noOptionsText, onChangeItem, }: SelectListProps) => any;
+export declare const SelectList: ({ items, label, placeholder, defaultValue, disableClearable, keyTitle, variant, margin, focused, helperText, error, disabled, popperHeight, clearText, noOptionsText, onChangeItem, }: SelectListProps) => import("react/jsx-runtime").JSX.Element;
 export {};

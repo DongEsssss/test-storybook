@@ -21,4 +21,4 @@ export interface MultiSelectListProps extends Omit<TextFieldProps, 'variant' | '
     defaultValues?: [];
     onAddItem: (items: []) => void;
 }
-export declare const MultiSelectList: ({ items, label, placeholder, keyTitle, variant, margin, focused, helperText, error, disabled, popperHeight, clearText, noOptionsText, buttonAddMore, notItemsText, tagSize, filterOptionsArgs, defaultValues, onAddItem, }: MultiSelectListProps) => any;
+export declare const MultiSelectList: ({ items, label, placeholder, keyTitle, variant, margin, focused, helperText, error, disabled, popperHeight, clearText, noOptionsText, buttonAddMore, notItemsText, tagSize, filterOptionsArgs, defaultValues, onAddItem, }: MultiSelectListProps) => import("react/jsx-runtime").JSX.Element;

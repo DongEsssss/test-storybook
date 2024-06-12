@@ -3,5 +3,5 @@ interface CheckboxProps extends Omit<MuiCheckboxProps, 'size'> {
     size?: 'medium' | 'small' | 'large';
     label?: string | number;
 }
-export declare const Checkbox: ({ size, label, ...props }: CheckboxProps) => any;
+export declare const Checkbox: ({ size, label, ...props }: CheckboxProps) => import("react/jsx-runtime").JSX.Element;
 export {};
